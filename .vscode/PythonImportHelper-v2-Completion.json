@@ -1,5 +1,471 @@
 [
     {
+        "label": "asyncio",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "asyncio",
+        "description": "asyncio",
+        "detail": "asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "multiprocessing",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "multiprocessing",
+        "description": "multiprocessing",
+        "detail": "multiprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "rest_framework.response",
+        "description": "rest_framework.response",
+        "isExtraImport": true,
+        "detail": "rest_framework.response",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "APIView",
+        "importPath": "rest_framework.views",
+        "description": "rest_framework.views",
+        "isExtraImport": true,
+        "detail": "rest_framework.views",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "serializers",
+        "importPath": "rest_framework",
+        "description": "rest_framework",
+        "isExtraImport": true,
+        "detail": "rest_framework",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraphService",
+        "importPath": "api.services.kg_services",
+        "description": "api.services.kg_services",
+        "isExtraImport": true,
+        "detail": "api.services.kg_services",
+        "documentation": {}
+    },
+    {
+        "label": "ComputationStatus",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpoint",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "ComputationStatus",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpoint",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpoint",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "ComputationStatus",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimSubject",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpointService",
+        "importPath": "api.services.sparqlendpoint_services",
+        "description": "api.services.sparqlendpoint_services",
+        "isExtraImport": true,
+        "detail": "api.services.sparqlendpoint_services",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpointSerializer",
+        "importPath": "api.serializers",
+        "description": "api.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "django.urls",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "re_path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "SubjectService",
+        "importPath": "api.services.subject_services",
+        "description": "api.services.subject_services",
+        "isExtraImport": true,
+        "detail": "api.services.subject_services",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "SPARQLWrapper",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "SPARQLWrapper",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "MinHash",
+        "importPath": "datasketch",
+        "description": "datasketch",
+        "isExtraImport": true,
+        "detail": "datasketch",
+        "documentation": {}
+    },
+    {
+        "label": "MinHashLSH",
+        "importPath": "datasketch",
+        "description": "datasketch",
+        "isExtraImport": true,
+        "detail": "datasketch",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "LSHService",
+        "importPath": "api.services.lsh_services",
+        "description": "api.services.lsh_services",
+        "isExtraImport": true,
+        "detail": "api.services.lsh_services",
+        "documentation": {}
+    },
+    {
         "label": "admin",
         "importPath": "django.contrib",
         "description": "django.contrib",
@@ -24,14 +490,6 @@
         "documentation": {}
     },
     {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -40,20 +498,19 @@
         "documentation": {}
     },
     {
+        "label": "SparqlEndpointAPIView",
+        "importPath": "api.controllers.sparqlEndpointController",
+        "description": "api.controllers.sparqlEndpointController",
+        "isExtraImport": true,
+        "detail": "api.controllers.sparqlEndpointController",
+        "documentation": {}
+    },
+    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
         "isExtraImport": true,
         "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -70,14 +527,6 @@
         "description": "pathlib",
         "isExtraImport": true,
         "detail": "pathlib",
-        "documentation": {}
-    },
-    {
-        "label": "path",
-        "importPath": "django.urls",
-        "description": "django.urls",
-        "isExtraImport": true,
-        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -98,12 +547,201 @@
         "documentation": {}
     },
     {
+        "label": "KnowledgeGraphAPIView",
+        "kind": 6,
+        "importPath": "api.controllers.knowledgeGraphController",
+        "description": "api.controllers.knowledgeGraphController",
+        "peekOfCode": "class KnowledgeGraphAPIView(APIView):\n    def get(self, request, action=None, format=None):\n        if action == \"list-kgs\":\n            kgs = KnowledgeGraphService(data=None).list_kg()\n            return Response(kgs, status=status.HTTP_200_OK)\n        elif action == \"computation-status\":\n            computation_status = ComputationStatus.objects.select_related('knowledgeGraph').all(\n            ).values()\n            return Response(computation_status, status=status.HTTP_200_OK)\n    def post(self, request, action=None, format=None):",
+        "detail": "api.controllers.knowledgeGraphController",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectAPIView",
+        "kind": 6,
+        "importPath": "api.controllers.objectController",
+        "description": "api.controllers.objectController",
+        "peekOfCode": "class ObjectAPIView(APIView):\n    def get(self, request, action=None, format=None):\n        data = None\n        if action == \"list\":\n            print(f\"GET Request received: {request}\")\n            for key, value in request.GET.items():\n                print(f\"Query parameter: {key}, Value: {value}\")\n            data = [\n                {\n                    'name': 'Knowledge graph curation',",
+        "detail": "api.controllers.objectController",
+        "documentation": {}
+    },
+    {
+        "label": "PredicateAPIView",
+        "kind": 6,
+        "importPath": "api.controllers.predicateController",
+        "description": "api.controllers.predicateController",
+        "peekOfCode": "class PredicateAPIView(APIView):\n    def get(self, request, format=None):\n        print(f\"GET Request received: {request}\")\n        for key, value in request.GET.items():\n            print(f\"Query parameter: {key}, Value: {value}\")\n        data = [\n            {\n                'name': 'Knowledge graph curation',\n                'description': 'cleansing and enriching knowledge graphs.',\n                'date': '2025-08-27'",
+        "detail": "api.controllers.predicateController",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpointAPIView",
+        "kind": 6,
+        "importPath": "api.controllers.sparqlEndpointController",
+        "description": "api.controllers.sparqlEndpointController",
+        "peekOfCode": "class SparqlEndpointAPIView(APIView):\n    def get(self, request, action=None, format=None):\n        if action == \"list-endpoints\":\n            endpoints = SparqlEndpointService(data=None).get_all_endpoints()\n            return Response(endpoints, status=status.HTTP_200_OK)\n    def post(self, request, action=None, format=None):\n        data = request.data\n        if action == \"create\":\n            endpoint = SparqlEndpointService(data=data).create()\n            serializer = SparqlEndpointSerializer(endpoint)",
+        "detail": "api.controllers.sparqlEndpointController",
+        "documentation": {}
+    },
+    {
+        "label": "SubjectAPIView",
+        "kind": 6,
+        "importPath": "api.controllers.subjectController",
+        "description": "api.controllers.subjectController",
+        "peekOfCode": "class SubjectAPIView(APIView):\n    def get(self, request, action=None, format=None):\n        data = request.GET\n        if action == \"list-sim\":\n            min_score = data.get('minScore')\n            max_score = data.get('maxScore')\n            limit = data.get('limit', -1)\n            page = data.get('page', 1)\n            subjects, total_count, page_count = SubjectService(\n                kg_name=data.get(\"kgName\")).fetch_similar_subjects(",
+        "detail": "api.controllers.subjectController",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "api.migrations.0001_initial",
+        "description": "api.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='ComputationStatus',\n            fields=[\n                ('id', models.AutoField(primary_key=True, serialize=False)),\n                ('knowledgeGraph', models.TextField()),",
+        "detail": "api.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraphService",
+        "kind": 6,
+        "importPath": "api.services.kg_services",
+        "description": "api.services.kg_services",
+        "peekOfCode": "class KnowledgeGraphService:\n    def __init__(self, data=None):\n        self.data = data\n    def get_all_graphs(self):\n        output = []\n        sparqlEndpoint = SparqlEndpoint.objects.filter(\n            uri=self.data['sparqlEndpoint']).first()\n        if not sparqlEndpoint:\n            sparqlEndpoint = SparqlEndpoint(uri=self.data['sparqlEndpoint'])\n            sparqlEndpoint.save()",
+        "detail": "api.services.kg_services",
+        "documentation": {}
+    },
+    {
+        "label": "LSHService",
+        "kind": 6,
+        "importPath": "api.services.lsh_services",
+        "description": "api.services.lsh_services",
+        "peekOfCode": "class LSHService:\n    def __init__(self, corpus=[]):\n        self.corpus = corpus\n        self.lsh = self.build_lsh_index()\n        print(f\"Total pairs: {len(corpus)*len(corpus)} elements to compare.\")\n    def preprocess_string(self, s):\n        s = re.sub(r'[^\\w\\s]', '', s.lower())\n        shingles = set()\n        for i in range(len(s) - 2):\n            shingles.add(s[i:i+3])",
+        "detail": "api.services.lsh_services",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpointService",
+        "kind": 6,
+        "importPath": "api.services.sparqlendpoint_services",
+        "description": "api.services.sparqlendpoint_services",
+        "peekOfCode": "class SparqlEndpointService:\n    def __init__(self, data=None):\n        self.data = data\n    def create(self):\n        endpoint = SparqlEndpoint.objects.filter(\n            uri=str(self.data.get(\"sparqlEndpoint\"))).first()\n        if not endpoint:\n            endpoint = SparqlEndpoint(uri=self.data.get(\"sparqlEndpoint\"))\n            endpoint.save()\n        return endpoint",
+        "detail": "api.services.sparqlendpoint_services",
+        "documentation": {}
+    },
+    {
+        "label": "SubjectService",
+        "kind": 6,
+        "importPath": "api.services.subject_services",
+        "description": "api.services.subject_services",
+        "peekOfCode": "class SubjectService:\n    def __init__(self, kg_name=None):\n        self.kg_name = kg_name\n        print(f\"Initializing SubjectService for KG: {kg_name}\")\n        self.kg_model = KnowledgeGraph.objects.filter(\n            name=kg_name).select_related('sparqlEndpointId').first()\n    def get_offset_and_limit(self, page, limit, results_queryset):\n        if limit < 0:\n            offset = 0\n            limit = len(results_queryset)",
+        "detail": "api.services.subject_services",
+        "documentation": {}
+    },
+    {
         "label": "ApiConfig",
         "kind": 6,
         "importPath": "api.apps",
         "description": "api.apps",
         "peekOfCode": "class ApiConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'api'",
         "detail": "api.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpoint",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class SparqlEndpoint(models.Model):\n    id = models.AutoField(primary_key=True)\n    uri = models.TextField()\n    createdAt = models.DateField(auto_now_add=True)\n# KnowledgeGraph model\nclass KnowledgeGraph(models.Model):\n    id = models.AutoField(primary_key=True)\n    name = models.TextField()\n    sparqlEndpointId = models.ForeignKey(\n        SparqlEndpoint, on_delete=models.CASCADE)",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class KnowledgeGraph(models.Model):\n    id = models.AutoField(primary_key=True)\n    name = models.TextField()\n    sparqlEndpointId = models.ForeignKey(\n        SparqlEndpoint, on_delete=models.CASCADE)\n    createdAt = models.DateField(auto_now_add=True)\n# Subject model\nclass Subject(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraphId = models.ForeignKey(",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "Subject",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class Subject(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraphId = models.ForeignKey(\n        KnowledgeGraph, on_delete=models.CASCADE)\n    uri = models.TextField()\n    createdAt = models.DateField(auto_now_add=True)\nclass SimSubject(models.Model):\n    id = models.AutoField(primary_key=True)\n    uri = models.TextField()\n    score = models.FloatField()",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimSubject",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class SimSubject(models.Model):\n    id = models.AutoField(primary_key=True)\n    uri = models.TextField()\n    score = models.FloatField()\n    subjectId = models.ForeignKey(Subject, on_delete=models.CASCADE)\n    createdAt = models.DateField(auto_now_add=True)\n# Predicate model\nclass Predicate(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraphId = models.ForeignKey(",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "Predicate",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class Predicate(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraphId = models.ForeignKey(\n        KnowledgeGraph, on_delete=models.CASCADE)\n    uri = models.TextField()\n    createdAt = models.DateField(auto_now_add=True)\nclass SimPredicate(models.Model):\n    id = models.AutoField(primary_key=True)\n    uri = models.TextField()\n    score = models.FloatField()",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimPredicate",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class SimPredicate(models.Model):\n    id = models.AutoField(primary_key=True)\n    uri = models.TextField()\n    score = models.FloatField()\n    predicateId = models.ForeignKey(Predicate, on_delete=models.CASCADE)\n    createdAt = models.DateField(auto_now_add=True)\n# Object model\nclass Object(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraphId = models.ForeignKey(",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "Object",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class Object(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraphId = models.ForeignKey(\n        KnowledgeGraph, on_delete=models.CASCADE)\n    uri = models.TextField()\n    createdAt = models.DateField(auto_now_add=True)\nclass SimObject(models.Model):\n    id = models.AutoField(primary_key=True)\n    uri = models.TextField()\n    score = models.FloatField()",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimObject",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class SimObject(models.Model):\n    id = models.AutoField(primary_key=True)\n    uri = models.TextField()\n    score = models.FloatField()\n    objectId = models.ForeignKey(Object, on_delete=models.CASCADE)\n    createdAt = models.DateField(auto_now_add=True)\n# computation status\nclass ComputationStatus(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraph = models.TextField()",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "ComputationStatus",
+        "kind": 6,
+        "importPath": "api.models",
+        "description": "api.models",
+        "peekOfCode": "class ComputationStatus(models.Model):\n    id = models.AutoField(primary_key=True)\n    knowledgeGraph = models.TextField()\n    axis = models.TextField()  # subject, predicate, object\n    status = models.TextField()  # building_LSH, in_progress, completed\n    progress = models.FloatField(default=0.0)\n    createdAt = models.DateField(auto_now_add=True)",
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpointSerializer",
+        "kind": 6,
+        "importPath": "api.serializers",
+        "description": "api.serializers",
+        "peekOfCode": "class SparqlEndpointSerializer(serializers.ModelSerializer):\n    class Meta:\n        model = SparqlEndpoint\n        fields = '__all__'",
+        "detail": "api.serializers",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "api.urls",
+        "description": "api.urls",
+        "peekOfCode": "urlpatterns = [\n    #\n    path('sparql-endpoints/<str:action>',\n         SparqlEndpointAPIView.as_view(), name='sparql-endpoint-api'),\n    path('knowledge-graphs/<str:action>',\n         KnowledgeGraphAPIView.as_view(), name='kg-api'),\n    path('subjects/<str:action>', SubjectAPIView.as_view(), name='subject-api'),\n    path('predicates/<str:action>',\n         PredicateAPIView.as_view(), name='predicate-api'),\n    path('objects/<str:action>', ObjectAPIView.as_view(), name='object-api'),",
+        "detail": "api.urls",
         "documentation": {}
     },
     {
@@ -120,7 +758,7 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-^w*=#2m1a%_rqf*5bgo1rq98l_*!l^u4xie_k#%vw6qyau0r&b'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-^w*=#2m1a%_rqf*5bgo1rq98l_*!l^u4xie_k#%vw6qyau0r&b'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -129,7 +767,7 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-^w*=#2m1a%_rqf*5bgo1rq98l_*!l^u4xie_k#%vw6qyau0r&b'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-^w*=#2m1a%_rqf*5bgo1rq98l_*!l^u4xie_k#%vw6qyau0r&b'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -138,7 +776,7 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -147,7 +785,7 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "peekOfCode": "ALLOWED_HOSTS = ['*']\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'corsheaders',",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -156,7 +794,16 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'corsheaders',\n    'rest_framework',\n    'api'",
+        "detail": "kgcuration.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGIN_ALLOW_ALL",
+        "kind": 5,
+        "importPath": "kgcuration.settings",
+        "description": "kgcuration.settings",
+        "peekOfCode": "CORS_ORIGIN_ALLOW_ALL = True\nMIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -165,7 +812,7 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'kgcuration.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'corsheaders.middleware.CorsMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -192,7 +839,7 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "WSGI_APPLICATION = 'kgcuration.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "peekOfCode": "WSGI_APPLICATION = 'kgcuration.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': os.environ.get('DB_NAME') or 'kgcuration',\n        'USER': os.environ.get('DB_USER') or 'admin',\n        'PASSWORD': os.environ.get('DB_PASSWORD') or 'root',\n        'HOST': os.environ.get('DB_HOST') or 'localhost',",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -201,7 +848,7 @@
         "kind": 5,
         "importPath": "kgcuration.settings",
         "description": "kgcuration.settings",
-        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': os.environ.get('DB_NAME') or 'kgcuration',\n        'USER': os.environ.get('DB_USER') or 'admin',\n        'PASSWORD': os.environ.get('DB_PASSWORD') or 'root',\n        'HOST': os.environ.get('DB_HOST') or 'localhost',\n        'PORT': os.environ.get('DB_PORT') or '3306',\n        # 'OPTIONS': {\n        #     'sslmode': 'require',",
         "detail": "kgcuration.settings",
         "documentation": {}
     },
@@ -273,7 +920,7 @@
         "kind": 5,
         "importPath": "kgcuration.urls",
         "description": "kgcuration.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n]",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('api/', include('api.urls')),\n]",
         "detail": "kgcuration.urls",
         "documentation": {}
     },
