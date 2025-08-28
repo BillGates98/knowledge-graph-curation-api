@@ -198,6 +198,38 @@
         "documentation": {}
     },
     {
+        "label": "ComputationStatus",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "ComputationStatus",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
         "label": "SparqlEndpoint",
         "importPath": "api.models",
         "description": "api.models",
@@ -231,6 +263,70 @@
     },
     {
         "label": "SparqlEndpoint",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "ComputationStatus",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimObject",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "Object",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "ComputationStatus",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "KnowledgeGraph",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "SimPredicate",
+        "importPath": "api.models",
+        "description": "api.models",
+        "isExtraImport": true,
+        "detail": "api.models",
+        "documentation": {}
+    },
+    {
+        "label": "Predicate",
         "importPath": "api.models",
         "description": "api.models",
         "isExtraImport": true,
@@ -278,47 +374,6 @@
         "documentation": {}
     },
     {
-        "label": "re",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "re",
-        "description": "re",
-        "detail": "re",
-        "documentation": {}
-    },
-    {
-        "label": "JsonResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "HttpResponse",
-        "importPath": "django.http",
-        "description": "django.http",
-        "isExtraImport": true,
-        "detail": "django.http",
-        "documentation": {}
-    },
-    {
-        "label": "SparqlEndpointService",
-        "importPath": "api.services.sparqlendpoint_services",
-        "description": "api.services.sparqlendpoint_services",
-        "isExtraImport": true,
-        "detail": "api.services.sparqlendpoint_services",
-        "documentation": {}
-    },
-    {
-        "label": "SparqlEndpointSerializer",
-        "importPath": "api.serializers",
-        "description": "api.serializers",
-        "isExtraImport": true,
-        "detail": "api.serializers",
-        "documentation": {}
-    },
-    {
         "label": "django.urls",
         "kind": 6,
         "isExtraImport": true,
@@ -357,6 +412,79 @@
         "description": "django.urls",
         "isExtraImport": true,
         "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectService",
+        "importPath": "api.services.object_services",
+        "description": "api.services.object_services",
+        "isExtraImport": true,
+        "detail": "api.services.object_services",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "PredicateService",
+        "importPath": "api.services.predicate_services",
+        "description": "api.services.predicate_services",
+        "isExtraImport": true,
+        "detail": "api.services.predicate_services",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpointService",
+        "importPath": "api.services.sparqlendpoint_services",
+        "description": "api.services.sparqlendpoint_services",
+        "isExtraImport": true,
+        "detail": "api.services.sparqlendpoint_services",
+        "documentation": {}
+    },
+    {
+        "label": "SparqlEndpointSerializer",
+        "importPath": "api.serializers",
+        "description": "api.serializers",
+        "isExtraImport": true,
+        "detail": "api.serializers",
         "documentation": {}
     },
     {
@@ -433,6 +561,38 @@
         "documentation": {}
     },
     {
+        "label": "SPARQLWrapper",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "SPARQLWrapper",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
+        "label": "JSON",
+        "importPath": "SPARQLWrapper",
+        "description": "SPARQLWrapper",
+        "isExtraImport": true,
+        "detail": "SPARQLWrapper",
+        "documentation": {}
+    },
+    {
         "label": "MinHash",
         "importPath": "datasketch",
         "description": "datasketch",
@@ -455,6 +615,22 @@
         "importPath": "json",
         "description": "json",
         "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "LSHService",
+        "importPath": "api.services.lsh_services",
+        "description": "api.services.lsh_services",
+        "isExtraImport": true,
+        "detail": "api.services.lsh_services",
+        "documentation": {}
+    },
+    {
+        "label": "LSHService",
+        "importPath": "api.services.lsh_services",
+        "description": "api.services.lsh_services",
+        "isExtraImport": true,
+        "detail": "api.services.lsh_services",
         "documentation": {}
     },
     {
@@ -560,7 +736,7 @@
         "kind": 6,
         "importPath": "api.controllers.objectController",
         "description": "api.controllers.objectController",
-        "peekOfCode": "class ObjectAPIView(APIView):\n    def get(self, request, action=None, format=None):\n        data = None\n        if action == \"list\":\n            print(f\"GET Request received: {request}\")\n            for key, value in request.GET.items():\n                print(f\"Query parameter: {key}, Value: {value}\")\n            data = [\n                {\n                    'name': 'Knowledge graph curation',",
+        "peekOfCode": "class ObjectAPIView(APIView):\n    def get(self, request, action=None, format=None):\n        data = request.GET\n        if action == \"list-sim\":\n            min_score = data.get('minScore')\n            max_score = data.get('maxScore')\n            limit = data.get('limit', -1)\n            page = data.get('page', 1)\n            objects, total_count, page_count = ObjectService(\n                kg_name=data.get(\"kgName\")).fetch_similar_objects(",
         "detail": "api.controllers.objectController",
         "documentation": {}
     },
@@ -569,7 +745,7 @@
         "kind": 6,
         "importPath": "api.controllers.predicateController",
         "description": "api.controllers.predicateController",
-        "peekOfCode": "class PredicateAPIView(APIView):\n    def get(self, request, format=None):\n        print(f\"GET Request received: {request}\")\n        for key, value in request.GET.items():\n            print(f\"Query parameter: {key}, Value: {value}\")\n        data = [\n            {\n                'name': 'Knowledge graph curation',\n                'description': 'cleansing and enriching knowledge graphs.',\n                'date': '2025-08-27'",
+        "peekOfCode": "class PredicateAPIView(APIView):\n    def get(self, request, action=None, format=None):\n        data = request.GET\n        if action == \"list-sim\":\n            min_score = data.get('minScore')\n            max_score = data.get('maxScore')\n            limit = data.get('limit', -1)\n            page = data.get('page', 1)\n            predicates, total_count, page_count = PredicateService(\n                kg_name=data.get(\"kgName\")).fetch_similar_predicates(",
         "detail": "api.controllers.predicateController",
         "documentation": {}
     },
@@ -616,6 +792,24 @@
         "description": "api.services.lsh_services",
         "peekOfCode": "class LSHService:\n    def __init__(self, corpus=[]):\n        self.corpus = corpus\n        self.lsh = self.build_lsh_index()\n        print(f\"Total pairs: {len(corpus)*len(corpus)} elements to compare.\")\n    def preprocess_string(self, s):\n        s = re.sub(r'[^\\w\\s]', '', s.lower())\n        shingles = set()\n        for i in range(len(s) - 2):\n            shingles.add(s[i:i+3])",
         "detail": "api.services.lsh_services",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectService",
+        "kind": 6,
+        "importPath": "api.services.object_services",
+        "description": "api.services.object_services",
+        "peekOfCode": "class ObjectService:\n    def __init__(self, kg_name=None):\n        self.kg_name = kg_name\n        print(f\"Initializing ObjectService for KG: {kg_name}\")\n        self.kg_model = KnowledgeGraph.objects.filter(\n            name=kg_name).select_related('sparqlEndpointId').first()\n    def get_offset_and_limit(self, page, limit, results_queryset):\n        if limit < 0:\n            offset = 0\n            limit = len(results_queryset)",
+        "detail": "api.services.object_services",
+        "documentation": {}
+    },
+    {
+        "label": "PredicateService",
+        "kind": 6,
+        "importPath": "api.services.predicate_services",
+        "description": "api.services.predicate_services",
+        "peekOfCode": "class PredicateService:\n    def __init__(self, kg_name=None):\n        self.kg_name = kg_name\n        print(f\"Initializing PredicateService for KG: {kg_name}\")\n        self.kg_model = KnowledgeGraph.objects.filter(\n            name=kg_name).select_related('sparqlEndpointId').first()\n    def get_offset_and_limit(self, page, limit, results_queryset):\n        if limit < 0:\n            offset = 0\n            limit = len(results_queryset)",
+        "detail": "api.services.predicate_services",
         "documentation": {}
     },
     {

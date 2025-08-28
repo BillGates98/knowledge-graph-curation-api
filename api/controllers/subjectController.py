@@ -84,7 +84,7 @@ class SubjectAPIView(APIView):
             knowledgeGraph = KnowledgeGraph.objects.filter(
                 name=data.get("kgName")).first()
             cs = ComputationStatus.objects.filter(
-                knowledgeGraph=knowledgeGraph.id, status="in_progress").first()
+                knowledgeGraph=knowledgeGraph.id, status="IN_PROGRESS").first()
             if cs:
                 return Response({"message": "Computation already in progress"}, status=status.HTTP_200_OK)
             p = threading.Thread(target=SubjectService(
@@ -110,4 +110,11 @@ class SubjectAPIView(APIView):
                 page=int(page)
             )
             return Response({"remaining_count": remaining_count, "page_count": page_count-1}, status=status.HTTP_200_OK)
+        elif action == "delete":
+            data = request.GET
+            id = data.get('id')
+            if not id:
+                return Response({"error": "ID is required"}, status=status.HTTP_400_BAD_REQUEST)
+            result = SubjectService(kg_name=None).delete_subject(id)
+            return Response({"message": "Subject deletion", "result": result}, status=status.HTTP_200_OK)
         return Response(data, status=status.HTTP_400_BAD_REQUEST)
