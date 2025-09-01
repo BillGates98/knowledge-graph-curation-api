@@ -11,7 +11,11 @@ https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
 import os
+from dotenv import load_dotenv
 from pathlib import Path
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -83,11 +87,11 @@ WSGI_APPLICATION = 'kgcuration.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ.get('DATABASE_NAME') or 'kgcuration',
-        'USER': os.environ.get('DATABASE_USER') or 'admin',
-        'PASSWORD': os.environ.get('DATABASE_PASSWORD') or 'root',
-        'HOST': os.environ.get('DATABASE_HOST') or 'localhost',
-        'PORT': os.environ.get('DATABASE_PORT') or '3306',
+        'NAME': os.getenv('DATABASE_NAME') or 'kgcuration',
+        'USER': os.getenv('DATABASE_USER') or 'admin',
+        'PASSWORD': os.getenv('DATABASE_PASSWORD') or 'root',
+        'HOST': os.getenv('DATABASE_HOST') or 'localhost',
+        'PORT': os.getenv('DATABASE_PORT') or '3306',
         # 'OPTIONS': {
         #     'sslmode': 'require',
         # },
