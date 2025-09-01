@@ -11,6 +11,7 @@ ENV PYTHONUNBUFFERED 1
 RUN apt-get update && \
     apt-get --no-install-recommends install -y python3 python3-pip curl && \
     apt-get -y autoremove && \
+    apt install libmysqlclient-dev && \
     apt-get clean
 
 # Upgrade pip
