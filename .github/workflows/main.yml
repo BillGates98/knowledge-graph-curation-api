@@ -34,8 +34,8 @@ jobs:
           file: ./Dockerfile
           push: ${{ github.event_name == 'push' }}
           tags: |
-            ghcr.io/BillGates98/knowledge-graph-curation-api:latest
-            ghcr.io/BillGates98/knowledge-graph-curation-api:${{ github.sha }}
+            ghcr.io/billgates98/knowledge-graph-curation-api:latest
+            ghcr.io/billgates98/knowledge-graph-curation-api:${{ github.sha }}
           labels: |
             org.opencontainers.image.source=https://github.com/BillGates98/knowledge-graph-curation-api
             org.opencontainers.image.description="Knowledge graph curation version"
