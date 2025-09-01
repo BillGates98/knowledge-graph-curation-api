@@ -35,7 +35,7 @@ COPY start-server.sh /app/start-server.sh
 
 RUN chmod +x /app/start-server.sh
 # Open the required port
-EXPOSE 5205
+EXPOSE 8000
 # Switch to the new user 'django'
 USER django
 #Start the server
