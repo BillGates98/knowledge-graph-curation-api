@@ -1,4 +1,4 @@
-name: Django Knowledge Graph CI - Docker Build and Push
+name: Django Knowledge Graph Curation CI - Docker Build and Push
 
 on:
   push:
