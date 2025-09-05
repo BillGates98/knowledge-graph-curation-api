@@ -47,4 +47,4 @@ EXPOSE 8000
 # Switch to the new user 'django'
 USER django
 #Start the server
-CMD ["/app/start-server.sh"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]

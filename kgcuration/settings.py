@@ -87,11 +87,11 @@ WSGI_APPLICATION = 'kgcuration.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('DATABASE_NAME') or 'kgcuration',
-        'USER': os.getenv('DATABASE_USER') or 'admin',
-        'PASSWORD': os.getenv('DATABASE_PASSWORD') or 'root',
-        'HOST': os.getenv('DATABASE_HOST') or 'localhost',
-        'PORT': os.getenv('DATABASE_PORT') or '3306',
+        'NAME': os.getenv('DATABASE_NAME', 'kgcuration'),
+        'USER': os.getenv('DATABASE_USER', 'admin'),
+        'PASSWORD': os.getenv('DATABASE_PASSWORD', 'root'),
+        'HOST': os.getenv('DATABASE_HOST', 'localhost'),
+        'PORT': os.getenv('DATABASE_PORT', '3306'),
         # 'OPTIONS': {
         #     'sslmode': 'require',
         # },
