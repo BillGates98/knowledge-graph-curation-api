@@ -23,7 +23,6 @@ python -m pip install -r requirements.txt
 - ⚡  **Unblocking processing**: Background processing with real-time progression diffusion.
 - ⚡ **Fetch computed similarities**: You can directly search available similarities few moment after the starting of the massive computation.
 
-These features are implemented in the backend side : [https://github.com/BillGates98/knowledge-graph-curation-api](https://github.com/BillGates98/knowledge-graph-curation-api) .
 
 ## 💡 Usage
 
