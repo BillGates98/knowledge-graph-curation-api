@@ -2,15 +2,19 @@
 
 This application allows you to calculate, detect and modify redundant information in the subject, predicate and object axes of a SPARQL endpoint.
 
-## 💿 Install
+## 💿 Install python 
 
-Use the corresponding command to install the dependencies:
+| [python >= 3.8](https://www.python.org/downloads/) | [pip](https://pip.pypa.io/en/stable/installation/) |
 
-| [python >= 3.8](https://www.python.org/downloads/)     | `npm install`  |
 
-| [mysql](https://docs.npmjs.com/cli/v7/commands/npm-install)     | `npm install`  |
+After completing the installation, create the virtual environment and install the dependencies with pip.
 
-After completing the installation, the frontend is ready to be used.
+```
+python -m venv env .
+
+python -m pip install -r requirements.txt
+
+```
 
 ## ✨ Features
 
@@ -27,7 +31,7 @@ This section covers how to start the server.
 
 ### Starting the DataBase Management System with docker (Recommended)
 
-To start mysql server with, run the following command.
+To start mysql server, run the following command.
 
 ```bash
 docker run -d \
